@@ -43,7 +43,7 @@ ls /lib/modules/$(uname -r)/build
 ```bash
 cd /usr/src
 sudo mkdir ssv6051-driver && cd ssv6051-driver
-sudo wget https://raw.githubusercontent.com/armbian/build/refs/heads/main/patch/kernel/archive/rockchip-6.19/patches.armbian/wifi-driver-ssv6051.patch
+sudo wget https://raw.githubusercontent.com/farhadbinfarooq/ssv6051-armbian-wifi/refs/heads/main/wifi-driver-ssv6051.patch
 sudo patch -p5 --batch < wifi-driver-ssv6051.patch
 ```
 
